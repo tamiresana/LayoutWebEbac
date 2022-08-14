@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Formulário Fale Conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- RESET -->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+		
+		<!-- Estilos Personalizados -->
+		<link rel="stylesheet" type="text/css" href="./css/layout.css">
+		<link rel="stylesheet" type="text/css" href="./css/04-tabelas.css">
+
+		<header class="formu0">
+			<h2>Curso Front-end</h2>
+			<p>Aprenda do Zero ao Pro</p>
+			<div><h2>EBAC</h2></div>
+			<h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+			<p>Aprenda de modo prático</p>
+		</header>
+
+		<section>
+
+			<nav class="formu1">
+				<ul class="navegacao">
+					<li><a href="./homepage.html">Homepage</a></li>
+					<li><a href="./tabelas.html">Tabelas</a></li>
+					<li><a href="./layouts.html">Layouts</a></li>
+					<li><a href="./formularios.html">Formulários</a></li>
+				</ul>
+			</nav>
+		
+			<article class="formu2">
+
+				<h1>Contato</h1>
+				<p>Preencha os campos abaixo</p>
+
+				<form method="post">
+
+					<div>
+						<label for="nome">Nome</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+					</div>
+
+					<div>
+						<label for="email">E-mail</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu email" required>
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div class="rotulo">
+						<p>
+							<label>Qual linguagem você prefere?</label>
+							<input type="radio" name="linguagens" value="html"> HTML
+							<input type="radio" name="linguagens" value="css"> CSS
+							<input type="radio" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div class="rotulo">
+						<p>
+							<label>Quais linguagens você sabe?</label>
+							<input type="checkbox" name="linguagens" value="html"> HTML
+							<input type="checkbox" name="linguagens" value="css"> CSS
+							<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div class="rotulo">
+						<label>Qual a sua cor favorita?</label>
+						<select>
+							<option selected disabled value="">Selecione</option>
+							<option value="Azul">Azul</option>
+							<option value="Verde">Verde</option>
+							<option value="Vermelho">Vermelho</option>
+						</select>
+					</div>
+
+					<div>
+						<button class="botao" type="submit" onsubmit="">Concluído</button>
+					</div>
+					
+
+				</form>
+
+				
+				
+			</article>
+
+
+		</section>
+
+		<footer class="formu3">
+			<p>Desenvolvido por Tamires</p>
+		</footer>
+		
+	</body>
+</html>

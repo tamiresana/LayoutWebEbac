@@ -1,0 +1,95 @@
+
+
+table {
+
+	border: 2px solid;
+	background: #ffffff;
+	max-width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table tr {
+	border: 1px solid #757575;
+}
+
+table tbody tr:nth-child(even) {
+	background-color: #EEEEFF;
+}
+
+table tbody tr:hover {
+	background-color: rgba(0, 0, 255, 0.2);
+}
+
+table th,
+table td {
+	padding: 1.1rem;
+	font-size: 1.5rem;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+}
+
+table th {
+	background-color: #008B8B ;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
+
+.table-container {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 1rem;
+	width: 100%;
+}
+
+.table-container h3 {
+	font-size: 1.7rem;
+	font-style: normal;
+	margin-bottom: 1rem;
+	text-align: center;
+	padding-right: 153px;
+}
+
+.table-container tfoot {
+	background: #5F9EA0;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+	color: #000000;
+}
+
+@media (max-width:768px) {
+	.table-container h3 {
+		text-align: center;
+	}
+}
+
+@media (max-width: 480px) { 
+.table-action thead {
+    display: none;
+	
+  }
+  .table-action tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  .table-action td {
+    border: 0;
+  }
+  .table-action td:not(:first-child) {
+    display: block;
+  }
+  
+  	
+	.tab1 {
+	   width: 100%;
+	   min-width: 320px;
+	}
+
+}
